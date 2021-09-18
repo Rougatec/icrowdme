@@ -214,7 +214,7 @@ button {
 
 .logo-header__text:before {
   content: "";
-  background: url(/img/logo.png) no-repeat;
+  background: url("../img/logo.png") no-repeat;
   background-size: 33px 36px;
   position: absolute;
   top: 13px;
