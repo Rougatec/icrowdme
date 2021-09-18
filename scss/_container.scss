@@ -1,0 +1,22 @@
+$minWidth: 320px;
+$maxWidth: 1300;
+$maxWidthContainer: 1060;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+._container {
+    max-width: $maxWidthContainer + px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (max-width: $md1 + px) {
+        max-width: 970px;
+    }
+    @media (max-width: $md2+px) {
+    }
+    @media (max-width: $md3+px) {
+        max-width: none;
+        padding: 0 10px;
+    }
+}
